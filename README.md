@@ -1,7 +1,8 @@
 # NodeJS
 
 These are docker images for NodeJS running on an
-[Alpine Linux container](https://registry.hub.docker.com/u/webhippie/alpine/)
+[Alpine Linux container](https://registry.hub.docker.com/u/webhippie/alpine/).
+The cuurrent container size is ```162.7 MB```
 
 
 ## Usage
