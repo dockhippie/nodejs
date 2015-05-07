@@ -8,10 +8,7 @@ The cuurrent container size is ```162.7 MB```
 ## Usage
 
 ```
-docker run -ti --name nodejs webhippie/nodejs:latest bash
-
-# Execute this for further available commands
-docker exec -ti nodejs manage help
+docker run -ti --name nodejs webhippie/nodejs:latest
 ```
 
 
@@ -20,18 +17,6 @@ docker exec -ti nodejs manage help
 * [latest](https://github.com/dockhippie/nodejs/tree/master)
   available as ```webhippie/nodejs:latest``` at
   [Docker Hub](https://registry.hub.docker.com/u/webhippie/nodejs/)
-
-
-## Available management commands
-
-```bash
-Usage: manage <command> [<args>]
-
-Some useful manage commands are:
-   bash      Start a shell on container
-   commands  List all available sub commands
-   console   Start an interactive console
-```
 
 
 ## Contributing
