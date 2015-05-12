@@ -1,14 +1,15 @@
 FROM webhippie/alpine:latest
 MAINTAINER Thomas Boerger <thomas@webhippie.de>
 
-RUN apk-install \
+RUN apk add --update \
   build-base \
   nodejs-dev \
   nodejs
 
 RUN npm install -g \
   gulp \
-  grunt-cli
+  grunt-cli && \
+  rm -rf /var/cache/apk/*
 
 RUN mkdir /app
 WORKDIR /app

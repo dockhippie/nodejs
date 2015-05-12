@@ -2,7 +2,6 @@
 
 These are docker images for NodeJS running on an
 [Alpine Linux container](https://registry.hub.docker.com/u/webhippie/alpine/).
-The cuurrent container size is ```162.7 MB```
 
 
 ## Usage
@@ -36,4 +35,6 @@ MIT
 
 ## Copyright
 
+```
 Copyright (c) 2015 Thomas Boerger <http://www.webhippie.de>
+```
