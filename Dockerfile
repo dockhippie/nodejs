@@ -12,6 +12,7 @@ RUN npm install -g \
   gulp \
   grunt-cli
 
-RUN mkdir /app
+ADD rootfs /
+
 WORKDIR /app
 CMD ["bash"]
