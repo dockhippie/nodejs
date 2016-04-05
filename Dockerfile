@@ -4,6 +4,7 @@ MAINTAINER Thomas Boerger <thomas@webhippie.de>
 RUN apk update && \
   apk add \
     build-base \
+    git \
     nodejs-dev \
     nodejs && \
   rm -rf /var/cache/apk/*
