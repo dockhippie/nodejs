@@ -10,7 +10,8 @@ RUN apk update && \
 
 RUN npm install -g \
   gulp \
-  grunt-cli
+  grunt-cli \
+  bower
 
 ADD rootfs /
 
