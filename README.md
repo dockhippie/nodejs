@@ -6,15 +6,6 @@ These are docker images for [NodeJS](https://nodejs.org) running on an
 [Alpine Linux container](https://registry.hub.docker.com/u/webhippie/alpine/).
 
 
-## Usage
-
-```bash
-docker run -ti \
-  --name nodejs \
-  webhippie/nodejs:latest
-```
-
-
 ## Versions
 
 * [latest](https://github.com/dockhippie/nodejs/tree/master)
@@ -22,9 +13,19 @@ docker run -ti \
   [Docker Hub](https://registry.hub.docker.com/u/webhippie/nodejs/)
 
 
+## Volumes
+
+* /srv/app
+
+
+## Ports
+
+* None
+
+
 ## Available environment variables
 
-None
+**None**
 
 
 ## Inherited environment variables
@@ -59,5 +60,5 @@ MIT
 ## Copyright
 
 ```
-Copyright (c) 2015 Thomas Boerger <http://www.webhippie.de>
+Copyright (c) 2015-2016 Thomas Boerger <http://www.webhippie.de>
 ```
