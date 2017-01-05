@@ -11,7 +11,10 @@ RUN apk update && \
     build-base \
     git \
     nodejs-dev \
-    nodejs && \
+    nodejs \
+    file \
+    autoconf \
+    automake && \
   rm -rf /var/cache/apk/*
 
 ADD rootfs /
