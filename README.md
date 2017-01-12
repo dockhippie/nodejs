@@ -1,16 +1,13 @@
 # NodeJS
 
-[![](https://badge.imagelayers.io/webhippie/nodejs:latest.svg)](https://imagelayers.io/?images=webhippie/nodejs:latest 'Get your own badge on imagelayers.io')
+[![](https://images.microbadger.com/badges/image/webhippie/nodejs.svg)](https://microbadger.com/images/webhippie/nodejs "Get your own image badge on microbadger.com")
 
-These are docker images for [NodeJS](https://nodejs.org) running on an
-[Alpine Linux container](https://registry.hub.docker.com/u/webhippie/alpine/).
+These are docker images for [NodeJS](https://nodejs.org) running on an [Alpine Linux container](https://registry.hub.docker.com/u/webhippie/alpine/).
 
 
 ## Versions
 
-* [latest](https://github.com/dockhippie/nodejs/tree/master)
-  available as ```webhippie/nodejs:latest``` at
-  [Docker Hub](https://registry.hub.docker.com/u/webhippie/nodejs/)
+* [latest](https://github.com/dockhippie/nodejs/tree/master) available as ```webhippie/nodejs:latest``` at [Docker Hub](https://registry.hub.docker.com/u/webhippie/nodejs/)
 
 
 ## Volumes
@@ -25,20 +22,14 @@ These are docker images for [NodeJS](https://nodejs.org) running on an
 
 ## Available environment variables
 
-**None**
+```bash
+```
 
 
 ## Inherited environment variables
 
 ```bash
-ENV LOGSTASH_ENABLED false
-ENV LOGSTASH_HOST logstash
-ENV LOGSTASH_PORT 5043
-ENV LOGSTASH_CA /etc/ssl/logstash/certs/ca.pem # As string or filename
-ENV LOGSTASH_CERT /etc/ssl/logstash/certs/cert.pem # As string or filename
-ENV LOGSTASH_KEY /etc/ssl/logstash/private/cert.pem # As string or filename
-ENV LOGSTASH_TIMEOUT 15
-ENV LOGSTASH_OPTS
+ENV CRON_ENABLED false
 ```
 
 
@@ -60,5 +51,5 @@ MIT
 ## Copyright
 
 ```
-Copyright (c) 2015-2016 Thomas Boerger <http://www.webhippie.de>
+Copyright (c) 2015-2017 Thomas Boerger <http://www.webhippie.de>
 ```
