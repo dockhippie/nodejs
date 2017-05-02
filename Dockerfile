@@ -12,6 +12,7 @@ RUN apk update && \
     git \
     nodejs-dev \
     nodejs \
+    yarn \
     file \
     autoconf \
     automake && \
