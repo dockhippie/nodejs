@@ -12,6 +12,7 @@ RUN apk update && \
     git \
     nodejs-dev \
     nodejs \
+    nodejs-npm \
     yarn \
     file \
     autoconf \
@@ -20,7 +21,7 @@ RUN apk update && \
 
 ADD rootfs /
 
-RUN npm install -g \
+RUN yarn global add \
   gulp \
   grunt-cli \
   bower
