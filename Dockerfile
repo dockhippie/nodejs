@@ -8,9 +8,9 @@ RUN apk update && \
   apk add \
     build-base \
     git \
-    nodejs-dev \
-    nodejs \
-    nodejs-npm \
+    nodejs-current-dev \
+    nodejs-current \
+    nodejs-current-npm \
     yarn \
     file \
     autoconf \
