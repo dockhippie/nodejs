@@ -8,6 +8,7 @@ These are docker images for [NodeJS](https://nodejs.org) running on an [Alpine L
 ## Versions
 
 * [latest](https://github.com/dockhippie/nodejs/tree/master) available as ```webhippie/nodejs:latest``` at [Docker Hub](https://registry.hub.docker.com/u/webhippie/nodejs/)
+* [current](https://github.com/dockhippie/nodejs/tree/current) available as ```webhippie/nodejs:current``` at [Docker Hub](https://registry.hub.docker.com/u/webhippie/nodejs/)
 
 
 ## Volumes
