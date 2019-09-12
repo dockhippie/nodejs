@@ -1,5 +1,5 @@
 local pipeline = import 'pipeline.libsonnet';
-local name = 'webhippie/golang';
+local name = 'webhippie/nodejs';
 
 [
   pipeline.build(name, 'latest', 'latest', 'amd64'),

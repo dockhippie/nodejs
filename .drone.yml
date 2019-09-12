@@ -14,7 +14,7 @@ steps:
     context: latest
     dockerfile: latest/Dockerfile.amd64
     dry_run: true
-    repo: webhippie/golang
+    repo: webhippie/nodejs
     tags: latest-amd64
   when:
     event:
@@ -28,7 +28,7 @@ steps:
     dockerfile: latest/Dockerfile.amd64
     password:
       from_secret: docker_password
-    repo: webhippie/golang
+    repo: webhippie/nodejs
     tags: latest-amd64
     username:
       from_secret: docker_username
@@ -57,7 +57,7 @@ steps:
     context: latest
     dockerfile: latest/Dockerfile.arm32v6
     dry_run: true
-    repo: webhippie/golang
+    repo: webhippie/nodejs
     tags: latest-arm32v6
   when:
     event:
@@ -71,7 +71,7 @@ steps:
     dockerfile: latest/Dockerfile.arm32v6
     password:
       from_secret: docker_password
-    repo: webhippie/golang
+    repo: webhippie/nodejs
     tags: latest-arm32v6
     username:
       from_secret: docker_username
@@ -100,7 +100,7 @@ steps:
     context: latest
     dockerfile: latest/Dockerfile.arm64v8
     dry_run: true
-    repo: webhippie/golang
+    repo: webhippie/nodejs
     tags: latest-arm64v8
   when:
     event:
@@ -114,7 +114,7 @@ steps:
     dockerfile: latest/Dockerfile.arm64v8
     password:
       from_secret: docker_password
-    repo: webhippie/golang
+    repo: webhippie/nodejs
     tags: latest-arm64v8
     username:
       from_secret: docker_username
