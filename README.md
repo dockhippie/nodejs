@@ -1,20 +1,23 @@
 # nodejs
 
-[![Docker Build](https://github.com/dockhippie/nodejs/workflows/docker/badge.svg)](https://github.com/dockhippie/nodejs/actions?query=workflow%3Adocker) [![Readme Build](https://github.com/dockhippie/nodejs/workflows/readme/badge.svg)](https://github.com/dockhippie/nodejs/actions?query=workflow%3Areadme) [![Docker Size](https://img.shields.io/docker/image-size/webhippie/nodejs/latest)](#) [![Docker Pulls](https://img.shields.io/docker/pulls/webhippie/nodejs)](https://hub.docker.com/r/webhippie/nodejs) [![GitHub Repo](https://img.shields.io/badge/github-repo-yellowgreen)](https://github.com/dockhippie/nodejs)
+[![Docker Build](https://github.com/dockhippie/nodejs/actions/workflows/docker.yml/badge.svg)](https://github.com/dockhippie/nodejs/actions/workflows/docker.yml) [![GitHub Repo](https://img.shields.io/badge/github-repo-yellowgreen)](https://github.com/dockhippie/nodejs)
 
-These are docker images for [NodeJS](https://nodejs.org) running on our [Alpine Linux image](https://github.com/dockhippie/alpine).
+These are docker images for [NodeJS][upstream] running on our
+[Alpine Linux image][parent].
 
 ## Versions
 
-For the available versions please look at [Docker Hub](https://hub.docker.com/r/webhippie/nodejs/tags) or [Quay](https://quay.io/repository/webhippie/nodejs?tab=tags) or check the existing folders within the [GitHub repository](https://github.com/dockhippie/nodejs).
+For the available versions please look at [Docker Hub][dockerhub] or
+[Quay][quayio] or check the existing folders within the
+[GitHub repository][github].
 
 ## Volumes
 
-* /srv/app
+*  /srv/app
 
 ## Ports
 
-* None
+*  None
 
 ## Available environment variables
 
@@ -43,3 +46,9 @@ MIT
 ```console
 Copyright (c) 2015 Thomas Boerger <http://www.webhippie.de>
 ```
+
+[upstream]: https://nodejs.org
+[parent]: https://github.com/dockhippie/alpine
+[dockerhub]: https://hub.docker.com/r/webhippie/nodejs/tags
+[quayio]: https://quay.io/repository/webhippie/nodejs?tab=tags
+[github]: https://github.com/dockhippie/nodejs

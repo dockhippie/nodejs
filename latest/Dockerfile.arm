@@ -7,6 +7,5 @@ COPY ./overlay /
 RUN apk update && \
   apk upgrade && \
   apk add build-base git nodejs-dev nodejs npm yarn file autoconf automake && \
+  yarn global add gulp grunt-cli bower && \
   rm -rf /var/cache/apk/*
-
-RUN yarn global add gulp grunt-cli bower
