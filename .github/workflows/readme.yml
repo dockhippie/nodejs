@@ -8,6 +8,9 @@ name: readme
     branches:
       - master
 
+permissions:
+  contents: read
+
 jobs:
   readme:
     runs-on: ubuntu-latest
@@ -20,17 +23,17 @@ jobs:
         uses: actionhippie/pushrm@v1
         with:
           provider: dockerhub
-          target: webhippie/nodejs
+          target: webhippie/noejs
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-          description: Docker image for Nodejs
+          description: Docker images for NodeJS
           readme: README.md
 
       - name: Quay readme
         uses: actionhippie/pushrm@v1
         with:
           provider: quay
-          target: quay.io/webhippie/nodejs
+          target: quay.io/webhippie/noejs
           apikey: ${{ secrets.QUAY_APIKEY }}
           readme: README.md
 

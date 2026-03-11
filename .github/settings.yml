@@ -1,7 +1,7 @@
 ---
 repository:
   name: nodejs
-  description: Docker images for nodejs
+  description: Docker images for NodeJS
   topics: docker, image
 
   private: false
